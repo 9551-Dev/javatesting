@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c69e739f-4854-473d-b813-73f4c4634ea5" name="Changes" comment="i forgor to commit :skull:&#10;also fixed unnessesary things">
+    <list default="true" id="c69e739f-4854-473d-b813-73f4c4634ea5" name="Changes" comment="i forgor to commit :skull:&#10;also removed unnessesary things">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nffodev/idk/net/Anwser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nffodev/idk/net/Anwser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/nffodev/idk/net/AnwserCorrect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nffodev/idk/net/AnwserCorrect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/nffodev/idk/net/AnwserWrong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nffodev/idk/net/AnwserWrong.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/nffodev/idk/net/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nffodev/idk/net/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nffodev/idk/net/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nffodev/idk/net/Question.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +75,14 @@
       <option name="presentableId" value="Default" />
       <updated>1661563897392</updated>
     </task>
+    <task id="LOCAL-00001" summary="i forgor to commit :skull:&#10;also removed unnessesary things">
+      <created>1661789895207</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661789895207</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -90,7 +98,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="i forgor to commit :skull:" />
-    <option name="LAST_COMMIT_MESSAGE" value="i forgor to commit :skull:" />
+    <MESSAGE value="i forgor to commit :skull:&#10;also removed unnessesary things" />
+    <option name="LAST_COMMIT_MESSAGE" value="i forgor to commit :skull:&#10;also removed unnessesary things" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

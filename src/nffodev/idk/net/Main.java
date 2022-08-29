@@ -10,8 +10,30 @@ public class Main {
 
         ArrayList<Question> questions = new ArrayList<>();
 
-        questions.add(new Question("a", new Anwser[] {new AnwserCorrect("a"), new AnwserWrong("b")}));
-        questions.add(new Question("b", new Anwser[] {new AnwserCorrect("b"), new AnwserWrong("a")}));
+        questions.add(new Question("Which of the following ingredients is not normally used to brew beer?", new Anwser[] {
+                new AnwserWrong("Hops"),
+                new AnwserWrong("Yeast"),
+                new AnwserWrong("Malt"),
+                new AnwserCorrect("Vinegar")
+        }));
+
+        questions.add(new Question("Which location is further east?", new Anwser[] {
+                new AnwserWrong("New York, USA"),
+                new AnwserCorrect("Santiago, Chile")
+        }));
+
+        questions.add(new Question("Substances that have a definite size and shape, and vibrating particles that are close together are:", new Anwser[] {
+                new AnwserWrong("Liquids"),
+                new AnwserWrong("Gases"),
+                new AnwserCorrect("Solids")
+        }));
+
+        questions.add(new Question("What is the most densely populated U.S. state?", new Anwser[] {
+                new AnwserCorrect("Connecticut"),
+                new AnwserWrong("New Jersey"),
+                new AnwserWrong("Rhode Island"),
+                new AnwserWrong("Maryland")
+        }));
 
         int correctCount = 0;
         for (Question question : questions) {
@@ -33,6 +55,7 @@ public class Main {
                     System.out.println("Invalid anwser");
                 }
             }
+            System.out.println();
         }
 
         System.out.println("Correct anwsers: " + correctCount+"/"+questions.size());
